@@ -105,3 +105,10 @@ const [error, setError] = useState(null)
     </div>
   )
 }
+
+// in app.jsx:
+import Summarizer from './Summarizer'
+
+export default function App() {
+  return <Summarizer />
+}
